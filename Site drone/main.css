@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 6rem;
+  background: #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  z-index: 1000;
+}
+
+.logo img {
+   height: 20rem;
+   overflow: hidden;
+   margin-top: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+  padding: 0.8rem 1.2rem;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  background: gray;
+  border-radius: 5px;
+}
+
+section {
+  height: 100vh;
+  padding-top: 6rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#inicio {
+  height: 100vh;
+  background-image: url("");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.conteudo {
+  max-width: 60rem;
+}
+
+.conteudo h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.botao {
+  display: inline-block;
+  background: green;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.6rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: darkgreen;
+}
+
+#quem-somos {
+  background: lightgray;
+}
+
+#servico {
+  background: bisque;
+}
+
+#contato {
+  background: brown;
+  color: white;
+}
+
+section h1 {
+  font-size: 3rem;
+}
+.quem-somos {
+  background-color: #dfe3e1;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.quem-somos .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quem-somos h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.quem-somos .descricao {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.info-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.box {
+  flex: 1;
+  min-width: 280px;
+}
+
+.box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.box p,
+.box ul {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.box ul {
+  padding-left: 18px;
+}
+.servicos {
+  background-color: #dfe3e1;
+  padding: 80px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.servicos .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.servicos h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #111;
+}
+
+.servicos .subtitulo {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 420px;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.card p {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+.contato {
+  font-family: Arial, sans-serif;
+}
+
+.contato .container {
+  background-color: #bfc8c1;
+  padding: 60px 20px;
+}
+
+.info-contato {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.item {
+  max-width: 300px;
+}
+
+.icone {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.whatsapp {
+  color: #0a7d2c;
+}
+
+.item h3 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.item p {
+  font-size: 14px;
+  color: #222;
+}
+
+.item a {
+  color: #222;
+  text-decoration: underline;
+}
+
+.mapa {
+  width: 100%;
+  height: 300px;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
