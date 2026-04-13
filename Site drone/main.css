@@ -21,7 +21,9 @@ nav {
   padding: 0 5rem;
   z-index: 1000;
 }
-
+.format-title1 {
+  font-size: 2rem;
+}
 .logo img {
    height: 20rem;
    overflow: hidden;
@@ -105,30 +107,34 @@ section {
 section h1 {
   font-size: 3rem;
 }
-.quem-somos {
+#quem-somos {
   background-color: #dfe3e1;
   padding: 60px 20px;
   font-family: Arial, sans-serif;
   color: #222;
 }
 
-.quem-somos .container {
+#quem-somos .container {
   max-width: 1100px;
   margin: 0 auto;
   text-align: center;
 }
 
-.quem-somos h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
+#quem-somos h2 {
+  font-size: 2.8rem;
+  margin-bottom: 2.0rem;
   font-weight: bold;
+  /* margin-bottom: 18rem; */
+  
 }
 
-.quem-somos .descricao {
+#quem-somos .descricao {
   font-size: 14px;
   line-height: 1.6;
   margin-bottom: 50px;
   text-align: justify;
+  /* margin-bottom: 10rem;
+  margin: 0 15rem; */
 }
 
 .info-grid {
@@ -158,26 +164,26 @@ section h1 {
 .box ul {
   padding-left: 18px;
 }
-.servicos {
+#servicos {
   background-color: #dfe3e1;
   padding: 80px 20px;
   font-family: Arial, sans-serif;
 }
 
-.servicos .container {
+#servicos .container {
   max-width: 1100px;
   margin: 0 auto;
   text-align: center;
 }
 
-.servicos h2 {
+#servicos h2 {
   font-size: 32px;
   margin-bottom: 10px;
   font-weight: bold;
   color: #111;
 }
 
-.servicos .subtitulo {
+#servicos .subtitulo {
   font-size: 16px;
   color: #333;
   margin-bottom: 50px;
@@ -203,7 +209,7 @@ section h1 {
 }
 
 .card h3 {
-  font-size: 18px;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 8px;
   color: #111;
@@ -214,11 +220,11 @@ section h1 {
   color: #333;
   line-height: 1.6;
 }
-.contato {
+#contato {
   font-family: Arial, sans-serif;
 }
 
-.contato .container {
+#contato .container {
   background-color: #bfc8c1;
   padding: 60px 20px;
 }
