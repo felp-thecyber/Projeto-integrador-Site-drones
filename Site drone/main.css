@@ -147,6 +147,10 @@ section h1 {
   flex-wrap: wrap;
   text-align: left;
 }
+.svg {
+  width: 0.4rem;
+  height: 1rem;
+}
 
 .box {
   flex: 1;
