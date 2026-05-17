@@ -103,7 +103,6 @@ section {
 }
 
 #contato {
-  background: brown;
   color: white;
 }
 
@@ -136,8 +135,6 @@ section h1 {
   line-height: 1.6;
   margin-bottom: 50px;
   text-align: justify;
-  /* margin-bottom: 10rem;
-  margin: 0 15rem; */
 }
 
 .info-grid {
@@ -147,21 +144,28 @@ section h1 {
   flex-wrap: wrap;
   text-align: left;
 }
-.svg {
-  width: 0.4rem;
-  height: 1rem;
-}
-
 .box {
   flex: 1;
   min-width: 280px;
 }
 
-.box h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
+.titulo-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
+.svg img {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+}
+
+.box h3 {
+  font-size: 2rem;
+  margin: 0;
+}
 .box p,
 .box ul {
   font-size: 14px;
@@ -229,6 +233,10 @@ section h1 {
 }
 #contato {
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
 }
 
 #contato .container {
@@ -237,18 +245,19 @@ section h1 {
 }
 
 .info-contato {
+  background-color: #e2e4e2;
   width: 100%;
-  height: 100%;
+  height: 40%;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
-  gap: 40px;
 }
 
 .item {
-  /* max-width: 300px; */
+  margin-top: 6rem;
+  max-width: 300px;
 }
 
 .icone {
@@ -262,8 +271,9 @@ section h1 {
 .item h3 {
   font-size: 14px;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 3rem;
   color: #222;
+
 }
 
 .item p {
@@ -276,13 +286,13 @@ section h1 {
   text-decoration: underline;
 }
 
-/* .mapa {
+.mapa {
   width: 100%;
-  height: 300px;
+  height: 60%;
 }
 
 .mapa iframe {
   width: 100%;
-  height: 15%;
+  height: 100%;
   border: none;
-} */
+}
