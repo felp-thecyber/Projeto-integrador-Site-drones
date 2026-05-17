@@ -3,12 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
-
 nav {
   position: fixed;
   top: 0;
@@ -31,13 +29,11 @@ nav {
    overflow: hidden;
    margin-top: 2rem;
 }
-
 nav ul {
   list-style: none;
   display: flex;
   gap: 4rem;
 }
-
 nav ul li a {
   text-decoration: none;
   color: black;
@@ -45,12 +41,10 @@ nav ul li a {
   padding: 0.8rem 1.2rem;
   transition: 0.3s;
 }
-
 nav ul li a:hover {
   background: gray;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
-
 section {
   height: 100vh;
   padding-top: 6rem; 
@@ -59,7 +53,6 @@ section {
   align-items: center;
   text-align: center;
 }
-
 #inicio {
   height: 100vh;
   background-image: url("");
@@ -67,167 +60,138 @@ section {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .conteudo {
   max-width: 60rem;
 }
-
 .conteudo h1 {
   font-size: 2.4rem;
   font-weight: 400;
   margin-bottom: 3rem;
 }
-
 .botao {
   display: inline-block;
   background: rgb(14, 14, 14);
   color: white;
   padding: 1rem 2rem;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   text-decoration: none;
   font-size: 1.6rem;
   border-radius: 1.2rem;
   transition: 0.3s;
 }
-
 .botao:hover {
   background: darkgreen;
 }
-
 #quem-somos {
   background: lightgray;
 }
-
 #servico {
   background: bisque;
 }
-
-#contato {
-  color: white;
-}
-
 section h1 {
   font-size: 3rem;
 }
 #quem-somos {
   background-color: #dfe3e1;
-  padding: 60px 20px;
+  padding: 6rem 2rem;
   font-family: Arial, sans-serif;
   color: #222;
 }
-
 #quem-somos .container {
-  max-width: 1100px;
+  max-width: 110rem;
   margin: 0 auto;
   text-align: center;
 }
-
 #quem-somos h2 {
   font-size: 2.8rem;
   margin-bottom: 2.0rem;
   font-weight: bold;
-  /* margin-bottom: 18rem; */
-  
 }
-
 #quem-somos .descricao {
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 1.6;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
   text-align: justify;
 }
-
 .info-grid {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 3rem;
   flex-wrap: wrap;
   text-align: left;
 }
 .box {
   flex: 1;
-  min-width: 280px;
+  min-width: 28rem;
 }
-
 .titulo-box {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
-
 .svg img {
   width: 3.5rem;
   height: 3.5rem;
   object-fit: contain;
 }
-
 .box h3 {
   font-size: 2rem;
   margin: 0;
 }
 .box p,
 .box ul {
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 1.6;
 }
-
 .box ul {
-  padding-left: 18px;
+  padding-left: 1.8rem;
 }
 #servico {
   background-color: #dfe3e1;
-  padding: 80px 20px;
+  padding: 8rem 2rem;
   font-family: Arial, sans-serif;
 }
-
 #servico .container {
-  max-width: 1100px;
+  max-width: 110rem;
   margin: 0 auto;
   text-align: center;
 }
-
 #servico h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   color: #111;
 }
-
 #servico .subtitulo {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #333;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
   line-height: 1.5;
 }
-
 .cards {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 5rem;
   flex-wrap: wrap;
 }
-
 .card {
-  max-width: 420px;
+  max-width: 42rem;
   text-align: left;
 }
-
 .card img {
   width: 100%;
-  border-radius: 20px;
-  margin-bottom: 15px;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
 }
-
 .card h3 {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
   color: #111;
 }
-
 .card p {
-  font-size: 15px;
+  font-size: 1.5rem;
   color: #333;
   line-height: 1.6;
 }
@@ -238,59 +202,52 @@ section h1 {
   justify-content: flex-start;
   align-items: stretch;
 }
-
-#contato .container {
-  background-color: #bfc8c1;
-  
-}
-
 .info-contato {
   background-color: #e2e4e2;
   width: 100%;
   height: 40%;
-  margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  text-align: center;
+  align-items: center;
   flex-wrap: wrap;
+  padding: 4rem 2rem;
 }
-
 .item {
-  margin-top: 6rem;
-  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 30rem;
+  gap: 1rem;
 }
-
 .icone {
-  font-size: 40px;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.whatsapp {
-  color: #0a7d2c;
+.icone img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
 }
-
 .item h3 {
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
   color: #222;
-
+  margin: 0;
 }
-
 .item p {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #222;
 }
-
 .item a {
   color: #222;
   text-decoration: underline;
 }
-
 .mapa {
   width: 100%;
   height: 60%;
 }
-
 .mapa iframe {
   width: 100%;
   height: 100%;
